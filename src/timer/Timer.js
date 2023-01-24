@@ -9,7 +9,8 @@ class Timer {
   constructor(seconds) {
     this.seconds = seconds;
   }
-// Timer.prototype.start = function () {
+  // Timer.prototype.start = function () {
+
   start() {
   //   var timerInterval = setInterval(function () {
     const timerInterval = setInterval(() => {
